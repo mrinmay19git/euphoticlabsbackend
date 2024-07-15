@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,14 +15,5 @@
     "save": "^2.9.0",
     "sqlite": "^4.0.19",
     "sqlite3": "^5.0.2"
-  },
-  
-    "http.proxy": "http://localhost:3090",
-    "http.proxyStrictSSL": false,
-    "http.proxyAuthorization": "Basic your-base64-encoded-credentials",
-    "http.proxySupport": "on",
-    "baseUri": "http://localhost:3090/user",
-    "proxyUri": "http://localhost:3090/"
-  
-  
+  }
 }
